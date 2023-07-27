@@ -11,7 +11,7 @@ export default {
   },
 } as Meta<TextProps>
 
-export const Primaty: StoryObj<TextProps> = {}
+export const Primary: StoryObj<TextProps> = {}
 
 export const CustonTag: StoryObj<TextProps> = {
   args: {
