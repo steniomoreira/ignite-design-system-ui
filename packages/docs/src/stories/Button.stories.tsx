@@ -6,6 +6,11 @@ export default {
   title: 'Form/Button',
   component: Button,
   tags: ['autodocs'],
+  argTypes: {
+    onClick: {
+      action: 'click',
+    },
+  },
   args: {
     children: 'Send',
   },
