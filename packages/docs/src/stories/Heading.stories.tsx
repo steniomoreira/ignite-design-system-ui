@@ -4,9 +4,7 @@ import { Heading, HeadingProps } from '@ignite-ui/react'
 export default {
   title: 'Tipography/Heading',
   component: Heading,
-
   tags: ['autodocs'],
-
   args: {
     children: 'Custon title',
   },
