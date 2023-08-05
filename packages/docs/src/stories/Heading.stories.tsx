@@ -5,8 +5,17 @@ export default {
   title: 'Tipography/Heading',
   component: Heading,
   tags: ['autodocs'],
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', '2xl', '3xl', '4xl', '5xl', '6xl'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
   args: {
     children: 'Custon title',
+    size: 'md',
   },
 } as Meta<HeadingProps>
 
